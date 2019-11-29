@@ -24,6 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends BeanActivity {
+    //丁建飞  11.29添加一行代码
+
     private ImageView img;
     private TabLayout tab;
     private ViewPager viewPager;
