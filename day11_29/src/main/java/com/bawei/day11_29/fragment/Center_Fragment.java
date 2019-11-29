@@ -44,6 +44,7 @@ private RelativeLayout center;
             @SuppressLint("ResourceType")
             @Override
             public void onClick(View view) {
+                //丁建飞 11.29作业
 //                FragmentManager ss = getActivity().getSupportFragmentManager();
 //                Right_Fragment right_fragment = new Right_Fragment();
 //
