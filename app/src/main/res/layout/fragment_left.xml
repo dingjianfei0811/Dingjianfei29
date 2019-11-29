@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.LEft_Fragment">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+ android:src="@mipmap/ic_launcher_round"
+    android:id="@+id/aa"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    ></ImageView>
+
+ <com.handmark.pulltorefresh.library.PullToRefreshListView
+     android:visibility="visible"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:id="@+id/listview"
+     ></com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+</RelativeLayout>
