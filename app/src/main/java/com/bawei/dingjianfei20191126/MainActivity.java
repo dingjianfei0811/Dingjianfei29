@@ -26,7 +26,7 @@ import java.util.List;
 public class MainActivity extends BeanActivity {
 
     //丁建飞  11.29添加一行代码
-
+//丁建飞 11   第二行
     private ImageView img;
     private TabLayout tab;
     private ViewPager viewPager;
